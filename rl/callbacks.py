@@ -5,7 +5,7 @@ from tempfile import mkdtemp
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras import __version__ as KERAS_VERSION
+from keras import __version__ as KERAS_VERSION
 from tensorflow.python.keras.callbacks import Callback as KerasCallback, CallbackList as KerasCallbackList
 from tensorflow.python.keras.utils.generic_utils import Progbar
 
